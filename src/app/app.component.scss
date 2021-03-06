@@ -3,6 +3,7 @@
 .container {
   display: flex;
   flex-direction: column;
+  background: url('/assets/bg-pattern-top-mobile.svg') no-repeat top 0 left 0, url('/assets/bg-pattern-bottom-mobile.svg') no-repeat bottom 0 right 0;
 }
 
 .info-container {
@@ -112,6 +113,7 @@
     align-content: space-around;
     height: 100%;
     padding: 10rem;
+    background: url('/assets/bg-pattern-top-desktop.svg') no-repeat top 0 left 0, url('/assets/bg-pattern-bottom-desktop.svg') no-repeat bottom 0 right 0;
   }
 
   .info-container {
