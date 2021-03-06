@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+$very-dark-magenta: hsl(300, 43%, 22%);
+$soft-pink: hsl(333, 80%, 67%);
+$dark-greyish-magenta: hsl(303, 10%, 53%);
+$light-greyish-magenta: hsl(300, 24%, 96%);
+$white: hsl(0, 0%, 100%);
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 15px;
+  font-family: 'Spartan', sans-serif;
+  margin: 0;
+}
+
+h1,
+p{
+  margin: 0;
+}
